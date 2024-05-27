@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u reshma2501 -p ${dockerhubpwd}'
 
 }
-                   sh 'docker push ankitjagtap/devops-integration'
+                   sh 'docker push reshma2501/devops-integration'
                 }
             }
         }
